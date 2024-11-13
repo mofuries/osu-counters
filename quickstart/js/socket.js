@@ -612,6 +612,7 @@ export default WebSocketManager;
  * @property {string} profile.countryCode.name
  * @property {string} profile.backgroundColour
  * @property {object} beatmap
+ * @property {boolean} beatmap.isConvert
  * @property {object} beatmap.time
  * @property {number} beatmap.time.live
  * @property {number} beatmap.time.firstObject
@@ -696,6 +697,21 @@ export default WebSocketManager;
  * @property {number} play.pp.current
  * @property {number} play.pp.fc
  * @property {number} play.pp.maxAchievedThisPlay
+ * @property {object} play.pp.detailed
+ * @property {object} play.pp.detailed.current
+ * @property {number} play.pp.detailed.current.aim
+ * @property {number} play.pp.detailed.current.speed
+ * @property {number} play.pp.detailed.current.accuracy
+ * @property {number} play.pp.detailed.current.difficulty
+ * @property {number} play.pp.detailed.current.flashlight
+ * @property {number} play.pp.detailed.current.total
+ * @property {object} play.pp.detailed.fc
+ * @property {number} play.pp.detailed.fc.aim
+ * @property {number} play.pp.detailed.fc.speed
+ * @property {number} play.pp.detailed.fc.accuracy
+ * @property {number} play.pp.detailed.fc.difficulty
+ * @property {number} play.pp.detailed.fc.flashlight
+ * @property {number} play.pp.detailed.fc.total
  * @property {number} play.unstableRate
  * @property {object[]} leaderboard
  * @property {boolean} leaderboard.isFailed
@@ -836,6 +852,21 @@ export default WebSocketManager;
  * @property {number} tourney.clients.play.pp.current
  * @property {number} tourney.clients.play.pp.fc
  * @property {number} tourney.clients.play.pp.maxAchievedThisPlay
+ * @property {object} tourney.clients.play.pp.detailed
+ * @property {object} tourney.clients.play.pp.detailed.current
+ * @property {number} tourney.clients.play.pp.detailed.current.aim
+ * @property {number} tourney.clients.play.pp.detailed.current.speed
+ * @property {number} tourney.clients.play.pp.detailed.current.accuracy
+ * @property {number} tourney.clients.play.pp.detailed.current.difficulty
+ * @property {number} tourney.clients.play.pp.detailed.current.flashlight
+ * @property {number} tourney.clients.play.pp.detailed.current.total
+ * @property {object} tourney.clients.play.pp.detailed.fc
+ * @property {number} tourney.clients.play.pp.detailed.fc.aim
+ * @property {number} tourney.clients.play.pp.detailed.fc.speed
+ * @property {number} tourney.clients.play.pp.detailed.fc.accuracy
+ * @property {number} tourney.clients.play.pp.detailed.fc.difficulty
+ * @property {number} tourney.clients.play.pp.detailed.fc.flashlight
+ * @property {number} tourney.clients.play.pp.detailed.fc.total
  * @property {number} tourney.clients.play.unstableRate
  */
 

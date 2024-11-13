@@ -4,7 +4,7 @@
 
 <h1 align="center"><a href="https://github.com/cyperdark/osu-counters/tree/master/counters">Check out pp counters</a></h1>
 
-<a href="https://osuck.link/redirect/https://github.com/cyperdark/osu-counters/releases/download/1.0.0/quickstart.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_Quick_Start-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>
+<a href="https://osuck.link/redirect/https://github.com/cyperdark/osu-counters/releases/download/1.0/quickstart.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_Quick_Start-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>
 
 <br>
 
@@ -48,5 +48,3 @@ Then you need a little bit knowledge about css, html, javascript (or you can jus
 <br />
 
 *p.s. if you didn't get any responses with-in 5 days, ping me in discord https://discord.gg/rYHNggbhyY*
-
-*p.s.s. At the moment this repo is fork of [gosumemory/static](https://github.com/l3lackShark/static)*
